@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: bootstrap
+  main:
+    allow-bean-definition-overriding: true
+    banner-mode: off
+  profiles:
+    active:
+      - local
+    group:
+      #            h2:
+      #                - h2-db
+      local:
+        - local
+    include:
+      - rds
+      - twitter-client
