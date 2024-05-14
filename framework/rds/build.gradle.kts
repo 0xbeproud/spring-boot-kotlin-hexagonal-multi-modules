@@ -38,10 +38,12 @@ tasks {
 
 
 dependencies {
-    val querydslVersion = "5.0.0"
+    api(project(":domain"))
+    api(project(":application"))
 
     api("org.springframework.boot:spring-boot-starter-data-jpa")
 
+    val querydslVersion = "5.0.0"
     implementation("com.querydsl:querydsl-jpa:$querydslVersion:jakarta")
     kapt("com.querydsl:querydsl-apt:$querydslVersion:jakarta")
     kapt("jakarta.annotation:jakarta.annotation-api")

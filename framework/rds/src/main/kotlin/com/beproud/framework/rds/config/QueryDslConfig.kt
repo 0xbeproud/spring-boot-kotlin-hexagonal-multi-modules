@@ -1,4 +1,4 @@
-package com.beproud.framework.rds
+package com.beproud.framework.rds.config
 
 import com.querydsl.jpa.impl.JPAQueryFactory
 import jakarta.persistence.EntityManager

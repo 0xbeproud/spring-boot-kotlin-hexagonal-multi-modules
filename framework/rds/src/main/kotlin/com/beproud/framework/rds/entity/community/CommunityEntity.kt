@@ -1,13 +1,13 @@
-package com.beproud.framework.rds.community
+package com.beproud.framework.rds.entity.community
 
-import com.beproud.framework.rds.BaseEntity
+import com.beproud.framework.rds.support.BaseEntity
 import jakarta.persistence.Column
 import jakarta.persistence.Entity
 import jakarta.persistence.Table
 
 @Entity
 @Table(name = "community")
-class Community(
+class CommunityEntity(
     @Column(name = "name", nullable = false)
     var name: String,
 ) : BaseEntity() {
@@ -15,7 +15,7 @@ class Community(
     companion object {
         fun create(
             name: String,
-        ): Community = Community(
+        ): CommunityEntity = CommunityEntity(
             name = name
         )
     }
