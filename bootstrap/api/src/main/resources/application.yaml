@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: bootstrap
+  main:
+    allow-bean-definition-overriding: true
+    banner-mode: off
+  profiles:
+    active:
+      - local
+    group:
+      local:
+        - local
+    include:
+      - rds

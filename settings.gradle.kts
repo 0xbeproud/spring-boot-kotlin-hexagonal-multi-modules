@@ -16,7 +16,8 @@ pluginManagement {
     }
 }
 
-include(":bootstrap")
+include(":bootstrap:api")
+include(":bootstrap:batch")
 include(":application")
 include(":domain")
-include(":framework")
+include(":framework:rds")

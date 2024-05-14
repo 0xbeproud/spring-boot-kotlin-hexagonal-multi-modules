@@ -1,16 +1,13 @@
 import org.springframework.boot.gradle.tasks.bundling.BootJar
 
-tasks {
-    withType<BootJar> {
-        enabled = false
-    }
+val jar: Jar by tasks
+val bootJar: BootJar by tasks
 
-    withType<Jar> {
-        enabled = true
-        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-    }
-}
+bootJar.enabled = false
+jar.enabled = true
 
 dependencies {
     implementation(project(":domain"))
+
+    implementation("org.springframework.data:spring-data-commons")
 }
