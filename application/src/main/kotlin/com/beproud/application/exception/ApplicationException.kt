@@ -1,4 +1,4 @@
-package com.beproud.application
+package com.beproud.application.exception
 
 open class ApplicationException(
     val code: String,

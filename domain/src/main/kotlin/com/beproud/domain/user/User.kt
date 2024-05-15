@@ -6,10 +6,7 @@ data class User(
     val id: UUID,
     val name: String,
 ) {
-   fun createUser(name: String): User {
-       return User(
-           id = UUID.randomUUID(),
-           name = name,
-       )
-   }
+    init {
+        require(name.isNotBlank()) { "name must not be blank" }
+    }
 }

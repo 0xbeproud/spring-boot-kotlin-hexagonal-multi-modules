@@ -8,4 +8,3 @@ jar.enabled = true
 
 dependencies {
 }
-

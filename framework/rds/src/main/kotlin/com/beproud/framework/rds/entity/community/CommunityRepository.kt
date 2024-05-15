@@ -6,4 +6,3 @@ import java.util.UUID
 
 @Repository
 interface CommunityRepository : JpaRepository<CommunityEntity, UUID>
-

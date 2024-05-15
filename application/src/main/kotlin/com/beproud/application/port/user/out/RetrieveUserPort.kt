@@ -5,4 +5,6 @@ import java.util.UUID
 
 interface RetrieveUserPort {
     fun retrieveUserById(id: UUID): User
+
+    fun retrieveUserByName(name: String): User
 }

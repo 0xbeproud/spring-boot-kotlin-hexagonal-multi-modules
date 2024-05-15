@@ -9,13 +9,13 @@ class CommunityMapper {
     fun toDomain(communityEntity: CommunityEntity): Community {
         return Community(
             id = communityEntity.id,
-            name = communityEntity.name
+            name = communityEntity.name,
         )
     }
 
     fun toEntity(community: Community): CommunityEntity {
         return CommunityEntity.create(
-            name = community.name
+            name = community.name,
         )
     }
 }

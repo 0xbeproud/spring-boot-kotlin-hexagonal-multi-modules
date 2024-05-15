@@ -36,7 +36,6 @@ tasks {
     }
 }
 
-
 dependencies {
     api(project(":domain"))
     api(project(":application"))

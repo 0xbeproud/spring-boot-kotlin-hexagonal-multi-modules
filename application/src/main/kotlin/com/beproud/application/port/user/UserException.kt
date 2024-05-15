@@ -1,6 +1,6 @@
 package com.beproud.application.port.user
 
-import com.beproud.application.ApplicationException
+import com.beproud.application.exception.ApplicationException
 
 private const val PREFIX = "UR"
 

@@ -11,12 +11,10 @@ class CommunityEntity(
     @Column(name = "name", nullable = false)
     var name: String,
 ) : BaseEntity() {
-
     companion object {
-        fun create(
-            name: String,
-        ): CommunityEntity = CommunityEntity(
-            name = name
-        )
+        fun create(name: String): CommunityEntity =
+            CommunityEntity(
+                name = name,
+            )
     }
 }

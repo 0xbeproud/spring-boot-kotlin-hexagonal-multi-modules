@@ -5,7 +5,7 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":application"))
+    api(project(":application"))
     implementation(project(":domain"))
     implementation(project(":framework:rds"))
 

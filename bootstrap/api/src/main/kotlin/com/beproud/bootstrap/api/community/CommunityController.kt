@@ -5,5 +5,4 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/api/v1/communities")
-class CommunityController {
-}
+class CommunityController
