@@ -1,8 +1,12 @@
 # spring-boot-kotlin-hexagonal-multi-modules
 
-> 공부하면서 정리중입니다
+> 제가 코드를 봐야 좀 이해가 빠르게 되어서 코드를 작성하면서 정리하고 있습니다.
 
 전체적인 내용은 [Spring Boot Kotlin Multi Module로 구성해보는 헥사고날 아키텍처](https://techblog.woowahan.com/12720/)을 참고하였습니다.
+
+code는 user위주로 보시면 될 것 같고, community는 여러 도메인을 다루는 경우 어떤 구조가 좋을까 싶어서 구조만 잡아놨습니다.
+
+학습용으로 만들고 있는 프로젝트가 있는데, 이 아키텍처를 적용해보려고 합니다.
 
 ![Hexagonal Architecture](docs/images/100-explicit-architecture-svg.png)
 [그림 1] 출처: https://herbertograca.com/tag/explicit-architecture
@@ -30,6 +34,7 @@
 
 ## bootstrap module
 - [그림 1] Primary/Driving Adapters (User Interface) 영역
+
 
 
 참고)
