@@ -1,6 +1,6 @@
 # spring-boot-kotlin-hexagonal-multi-modules
 
-> 제가 코드를 봐야 좀 이해가 빠르게 되어서 코드를 작성하면서 정리하고 있습니다.
+> 제가 코드를 봐야 이해가 빠르게 되어서 코드를 작성하면서 정리하고 있습니다.
 
 전체적인 내용은 [Spring Boot Kotlin Multi Module로 구성해보는 헥사고날 아키텍처](https://techblog.woowahan.com/12720/)을 참고하였습니다.
 
