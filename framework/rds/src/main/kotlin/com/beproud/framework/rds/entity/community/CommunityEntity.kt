@@ -1,6 +1,6 @@
 package com.beproud.framework.rds.entity.community
 
-import com.beproud.framework.rds.support.BaseEntity
+import com.beproud.framework.rds.entity.BaseEntity
 import jakarta.persistence.Column
 import jakarta.persistence.Entity
 import jakarta.persistence.Table
