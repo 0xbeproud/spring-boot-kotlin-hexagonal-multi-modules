@@ -1,4 +1,4 @@
-package com.beproud.framework.rds.entity
+package com.beproud.framework.rds.support
 
 import com.querydsl.core.BooleanBuilder
 

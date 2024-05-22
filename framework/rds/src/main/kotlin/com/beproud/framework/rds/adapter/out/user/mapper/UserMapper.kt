@@ -1,4 +1,4 @@
-package com.beproud.framework.rds.adapter.user.mapper
+package com.beproud.framework.rds.adapter.out.user.mapper
 
 import com.beproud.domain.user.User
 import com.beproud.framework.rds.entity.user.UserEntity

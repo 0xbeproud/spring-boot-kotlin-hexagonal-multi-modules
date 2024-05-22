@@ -1,4 +1,4 @@
-package com.beproud.framework.rds.adapter.user
+package com.beproud.framework.rds.adapter.out.user
 
 import com.beproud.application.port.user.UserNotFoundException
 import com.beproud.application.port.user.out.CheckUserPort
@@ -6,7 +6,7 @@ import com.beproud.application.port.user.out.DeleteUserPort
 import com.beproud.application.port.user.out.RetrieveUserPort
 import com.beproud.application.port.user.out.SaveUserPort
 import com.beproud.domain.user.User
-import com.beproud.framework.rds.adapter.user.mapper.UserMapper
+import com.beproud.framework.rds.adapter.out.user.mapper.UserMapper
 import com.beproud.framework.rds.entity.user.UserRepository
 import com.beproud.framework.rds.support.PersistenceAdapter
 import org.springframework.data.repository.findByIdOrNull

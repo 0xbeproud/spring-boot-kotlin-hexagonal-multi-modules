@@ -1,4 +1,4 @@
-package com.beproud.framework.rds.adapter.community.mapper
+package com.beproud.framework.rds.adapter.out.community.mapper
 
 import com.beproud.domain.community.Community
 import com.beproud.framework.rds.entity.community.CommunityEntity

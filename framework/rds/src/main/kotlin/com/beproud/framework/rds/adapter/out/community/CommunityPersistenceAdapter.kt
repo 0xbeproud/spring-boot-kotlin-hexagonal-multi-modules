@@ -1,10 +1,10 @@
-package com.beproud.framework.rds.adapter.community
+package com.beproud.framework.rds.adapter.out.community
 
 import com.beproud.application.port.community.CommunityNotFoundException
 import com.beproud.application.port.community.out.RetrieveCommunityPort
 import com.beproud.application.port.community.out.SaveCommunityPort
 import com.beproud.domain.community.Community
-import com.beproud.framework.rds.adapter.community.mapper.CommunityMapper
+import com.beproud.framework.rds.adapter.out.community.mapper.CommunityMapper
 import com.beproud.framework.rds.entity.community.CommunityRepository
 import com.beproud.framework.rds.support.PersistenceAdapter
 import org.springframework.data.repository.findByIdOrNull

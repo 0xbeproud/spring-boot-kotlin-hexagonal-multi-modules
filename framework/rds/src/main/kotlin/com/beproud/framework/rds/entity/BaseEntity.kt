@@ -1,4 +1,4 @@
-package com.beproud.framework.rds.support
+package com.beproud.framework.rds.entity
 
 import com.github.f4b6a3.ulid.UlidCreator
 import jakarta.persistence.Column
