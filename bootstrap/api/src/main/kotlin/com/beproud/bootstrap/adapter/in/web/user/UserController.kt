@@ -1,7 +1,7 @@
-package com.beproud.bootstrap.api.user
+package com.beproud.bootstrap.adapter.`in`.web.user
 
 import com.beproud.application.port.user.`in`.CreateUserUseCase
-import com.beproud.bootstrap.api.user.dto.CreateUserRequest
+import com.beproud.bootstrap.adapter.`in`.web.user.dto.CreateUserRequest
 import com.beproud.bootstrap.support.WebAdapter
 import jakarta.validation.Valid
 import org.springframework.http.ResponseEntity

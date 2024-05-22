@@ -1,4 +1,4 @@
-package com.beproud.bootstrap.api.user.dto
+package com.beproud.bootstrap.adapter.`in`.web.user.dto
 
 import com.beproud.application.port.user.`in`.command.CreateUserCommand
 

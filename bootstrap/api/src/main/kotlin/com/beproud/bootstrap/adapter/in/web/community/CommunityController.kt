@@ -1,4 +1,4 @@
-package com.beproud.bootstrap.api.community
+package com.beproud.bootstrap.adapter.`in`.web.community
 
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
