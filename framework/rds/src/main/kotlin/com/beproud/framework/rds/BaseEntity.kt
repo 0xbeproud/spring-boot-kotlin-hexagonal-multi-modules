@@ -47,11 +47,11 @@ abstract class BaseEntity : Persistable<UUID> {
     var modifiedBy: String? = null
 
     @Transient
-    private var _isNew = true
+    private var isNewOne = true
 
     override fun getId(): UUID = id
 
-    override fun isNew(): Boolean = _isNew
+    override fun isNew(): Boolean = isNewOne
 
     override fun equals(other: Any?): Boolean {
         if (other == null) {
@@ -78,6 +78,6 @@ abstract class BaseEntity : Persistable<UUID> {
     @PostPersist
     @PostLoad
     protected fun load() {
-        _isNew = false
+        isNewOne = false
     }
 }

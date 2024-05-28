@@ -4,8 +4,8 @@ import com.beproud.application.user.port.`in`.EditUserUseCase
 import com.beproud.application.user.port.out.CheckUserPort
 import com.beproud.application.user.port.out.RetrieveUserPort
 import com.beproud.application.user.port.out.SaveUserPort
-import com.beproud.support.UseService
 import com.beproud.domain.user.User
+import com.beproud.support.UseService
 
 @UseService
 class EditUserService(
